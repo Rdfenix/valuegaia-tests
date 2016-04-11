@@ -1,0 +1,19 @@
+{
+  "name": "valuegaia-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/I-Value/valuegaia-tests.git"
+  },
+  "author": "Jessé Pinheiro <jessebpinheiro@hotmail.com> (https://github.com/jesse1983)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/I-Value/valuegaia-tests/issues"
+  },
+  "homepage": "https://github.com/I-Value/valuegaia-tests#readme"
+}
