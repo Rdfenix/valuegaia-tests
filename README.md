@@ -25,7 +25,11 @@ webdriver-manager start
 
 Now run the test with:
 ```shell
+# Production environment
 protractor conf.js
+
+# Or another environment
+protractor conf.js --params.env=homologation1
 ```
 
 ## Writing a test

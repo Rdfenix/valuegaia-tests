@@ -1,5 +1,5 @@
 var colors = require('colors');
-var env = require('../config/enviroments.js');
+var env = require('../config/environments.js');
 module.exports = {
   loginAs: function(user){
       browser.driver.get(env[browser.params.env]);
