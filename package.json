@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/I-Value/valuegaia-tests/issues"
   },
-  "homepage": "https://github.com/I-Value/valuegaia-tests#readme"
+  "homepage": "https://github.com/I-Value/valuegaia-tests#readme",
+  "devDependencies": {
+    "colors": "^1.1.2"
+  }
 }

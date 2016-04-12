@@ -15,15 +15,18 @@ The `webdriver-manager` is a helper tool to easily get an instance of a Selenium
 webdriver-manager update
 ```
 
-Now start up a server with:
 
+
+## Running tests
+First start up a server with:
 ```shell
 webdriver-manager start
 ```
 
-## Running tests
 Now run the test with:
-
 ```shell
 protractor conf.js
 ```
+
+## Writing a test
+- Follow file example [login.specs.js](https://github.com/I-Value/valuegaia-tests/blob/master/specs/login/login.spec.js)
