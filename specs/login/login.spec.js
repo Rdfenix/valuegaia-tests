@@ -1,7 +1,7 @@
 // Import agencies and users
 var env = require("../../config/scenarios.js");
 // Import authorization helpers
-var auth = require("../../helpers/login.js");
+var auth = require("../../helpers/login/login.js");
 // import URL's of the acess dashboard
 var URL = require('../../config/URL.js');
 

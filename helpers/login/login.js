@@ -1,4 +1,4 @@
-var env = require('../config/environments.js');
+var env = require('../../config/environments.js');
 module.exports = {
   loginAs: function(user){
       browser.driver.get(env[browser.params.env]);
