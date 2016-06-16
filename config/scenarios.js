@@ -4,9 +4,9 @@ module.exports = {
         id: 1,
         users: {
             director: {
-                fullname: "Jessé Pinheiro",
-                username: "jesse.pinheiro@i-value.com.br",
-                password: "***"
+                fullname: "Rudnei Carlos de Oliveira",
+                username: "rudnei.oliveira@i-value.com.br",
+                password: "1234"
             },
             manager: [],
             broker1: [],

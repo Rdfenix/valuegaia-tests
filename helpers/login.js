@@ -1,4 +1,4 @@
-var colors = require('colors');
+//var colors = require('colors');
 var env = require('../config/environments.js');
 module.exports = {
   loginAs: function(user){
@@ -15,7 +15,7 @@ module.exports = {
 
       return browser.driver.wait(function() {
           return browser.driver.getCurrentUrl().then(function(url) {
-              console.log(colors.green.bold('Logged as '+ user.fullname));
+              console.log('Logged as '+ user.fullname);
               return /default/.test(url)
           });
       }, 9000);
