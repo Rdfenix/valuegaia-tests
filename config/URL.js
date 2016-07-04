@@ -24,4 +24,4 @@ module.exports = {
   url23: 'http://desenvolvimento:8082/homologacao23/admin/default.aspx#/dashboard',
   url24: 'http://desenvolvimento:8082/homologacao24/admin/default.aspx#/dashboard',
   url25: 'http://desenvolvimento:8082/homologacao25/admin/default.aspx#/dashboard'
-}
+};

@@ -26,4 +26,4 @@ module.exports = {
   	  homologation24: 'http://desenvolvimento:8082/homologacao24/',
   	  homologation25: 'http://desenvolvimento:8082/homologacao25/',
   	  preprod:        'http://preprod.valuegaia.com.br/'
-}
+};
