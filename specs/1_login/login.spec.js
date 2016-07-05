@@ -6,7 +6,7 @@ var auth = require("../../helpers/login/login.js");
 //var URL = require('../../config/URL.js');
 
 describe('check login', function() {
-  
+
   // Login as a director
   beforeAll(function(){
     auth.loginAs(env.agency1.users.director);
@@ -16,7 +16,6 @@ describe('check login', function() {
   it('should user name menu be fullname', function() {
     var user = element.all(by.css(".nav-li-user li.dropdown-header"));
     expect(user.count()).toEqual(1);
-    //expect(browser.getLocationAbsUrl()).toEqual(URL.url2);
   });
 
   // check this url is correct
@@ -24,8 +23,8 @@ describe('check login', function() {
         expect(browser.getLocationAbsUrl()).toMatch(/dashboard/);
   });
 
-  /*it("access Propety", function(){
+  it("access Propety", function(){
 
-  });*/
+  });
 
 });
